@@ -1,0 +1,29 @@
+[
+  {"id":"LJ_WU_01","name":"Lugn jogging","category":"warmup","reps":"8 min","sports":["long_jump"]},
+  {"id":"LJ_WU_02","name":"Skipping A","category":"warmup","reps":"3 × 30 m","sports":["long_jump"]},
+  {"id":"LJ_WU_03","name":"Skipping B","category":"warmup","reps":"3 × 30 m","sports":["long_jump"]},
+  {"id":"LJ_WU_04","name":"Höga knän","category":"warmup","reps":"2 × 30 m","sports":["long_jump"]},
+  {"id":"LJ_WU_05","name":"Hälspark","category":"warmup","reps":"2 × 30 m","sports":["long_jump"]},
+  {"id":"LJ_WU_06","name":"Höftmobilitet","category":"warmup","reps":"2 × 10","sports":["long_jump"]},
+  {"id":"LJ_WU_07","name":"Fotledsmobilitet","category":"warmup","reps":"2 × 15","sports":["long_jump"]},
+
+  {"id":"LJ_TECH_01","name":"Ansats rytmträning","category":"technique","reps":"6 × 20 m","sports":["long_jump"]},
+  {"id":"LJ_TECH_02","name":"Ansats med markerade steg","category":"technique","reps":"6 × 20 m","sports":["long_jump"]},
+  {"id":"LJ_TECH_03","name":"Sista steget fokus","category":"technique","reps":"5 × 1","sports":["long_jump"]},
+  {"id":"LJ_TECH_04","name":"Take-off drill","category":"technique","reps":"4 × 6","sports":["long_jump"]},
+  {"id":"LJ_TECH_05","name":"Hoppa upp på låda","category":"technique","reps":"4 × 5","sports":["long_jump"]},
+  {"id":"LJ_TECH_06","name":"Landning i sand","category":"technique","reps":"5 × 1","sports":["long_jump"]},
+
+  {"id":"LJ_PLYO_01","name":"Ankelskutt","category":"plyometrics","reps":"3 × 20","sports":["long_jump"]},
+  {"id":"LJ_PLYO_02","name":"Bounding","category":"plyometrics","reps":"4 × 30 m","sports":["long_jump"]},
+  {"id":"LJ_PLYO_03","name":"Enbenshopp framåt","category":"plyometrics","reps":"3 × 10 per ben","sports":["long_jump"]},
+  {"id":"LJ_PLYO_04","name":"Drop jumps","category":"plyometrics","reps":"3 × 6","sports":["long_jump"]},
+
+  {"id":"LJ_STR_01","name":"Knäböj","category":"strength","reps":"4 × 5","sports":["long_jump"]},
+  {"id":"LJ_STR_02","name":"Step-ups","category":"strength","reps":"3 × 8 per ben","sports":["long_jump"]},
+  {"id":"LJ_STR_03","name":"Nordic hamstrings","category":"strength","reps":"3 × 5","sports":["long_jump"]},
+  {"id":"LJ_STR_04","name":"Vadpress","category":"strength","reps":"3 × 12","sports":["long_jump"]},
+
+  {"id":"LJ_COORD_01","name":"Balans enbens","category":"coordination","reps":"3 × 30 sek","sports":["long_jump"]},
+  {"id":"LJ_COORD_02","name":"Koordinationsstege","category":"coordination","reps":"4 × 20 m","sports":["long_jump"]}
+]

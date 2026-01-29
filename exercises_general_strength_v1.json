@@ -1,0 +1,23 @@
+[
+  { "name": "Knäböj", "category": "strength", "reps": "3 × 10", "description": "Kontrollerad djup böj." },
+  { "name": "Utfall framåt", "category": "strength", "reps": "3 × 8 per ben", "description": "Stabil bål." },
+  { "name": "Utfall bakåt", "category": "strength", "reps": "3 × 8 per ben", "description": "Mindre belastning knä." },
+  { "name": "Step-ups", "category": "strength", "reps": "3 × 8 per ben", "description": "Kliv upp på låda." },
+  { "name": "Höftlyft", "category": "strength", "reps": "3 × 12", "description": "Aktiverar säte." },
+  { "name": "Enbens höftlyft", "category": "strength", "reps": "3 × 8 per ben", "description": "Stabilitet." },
+  { "name": "Vadpress", "category": "strength", "reps": "3 × 15", "description": "Stå eller på låda." },
+  { "name": "Armhävningar", "category": "strength", "reps": "3 × 10", "description": "Bröst och triceps." },
+  { "name": "Plankan", "category": "strength", "reps": "3 × 30 sek", "description": "Spänd bål." },
+  { "name": "Sidoplanka", "category": "strength", "reps": "3 × 20 sek/ sida", "description": "Sneda magmuskler." },
+
+  { "name": "Superman", "category": "strength", "reps": "3 × 12", "description": "Rygg." },
+  { "name": "Mountain climbers", "category": "strength", "reps": "3 × 30 sek", "description": "Kondition + bål." },
+  { "name": "Glute bridge march", "category": "strength", "reps": "3 × 10", "description": "Höftstabilitet." },
+  { "name": "Wall sit", "category": "strength", "reps": "3 × 30 sek", "description": "Isometrisk styrka." },
+  { "name": "Good mornings", "category": "strength", "reps": "3 × 10", "description": "Raka rygg." },
+  { "name": "Russian twist", "category": "strength", "reps": "3 × 20", "description": "Bålrotation." },
+  { "name": "Squat jumps", "category": "strength", "reps": "3 × 8", "description": "Explosiv styrka." },
+  { "name": "Bear crawl", "category": "strength", "reps": "3 × 20 m", "description": "Helkropp." },
+  { "name": "Reverse plank", "category": "strength", "reps": "3 × 30 sek", "description": "Rygg och säte." },
+  { "name": "Lateral lunges", "category": "strength", "reps": "3 × 8 per sida", "description": "Sidostyrka." }
+]

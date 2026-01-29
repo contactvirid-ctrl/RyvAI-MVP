@@ -1,0 +1,344 @@
+[
+  {
+    "name": "Jogging med rörlighet",
+    "category": "warmup",
+    "sports": ["triple_jump"],
+    "duration": "5 min",
+    "description": "Lätt jogg kombinerat med höft-, knä- och fotledsrörlighet.",
+    "coaching_cues": [
+      "Avslappnad överkropp",
+      "Full rörelse i lederna"
+    ]
+  },
+  {
+    "name": "Skipping A",
+    "category": "warmup",
+    "sports": ["triple_jump"],
+    "reps": "3 × 30 m",
+    "description": "Grundläggande löpskolning med fokus på höftposition.",
+    "coaching_cues": [
+      "Knä upp, fot under höft",
+      "Spänstigt fotisätt"
+    ]
+  },
+  {
+    "name": "Skipping B",
+    "category": "warmup",
+    "sports": ["triple_jump"],
+    "reps": "3 × 30 m",
+    "description": "Löpskolning med aktiv underbensrörelse.",
+    "coaching_cues": [
+      "Snabb markkontakt",
+      "Tydlig fotisättning framåt"
+    ]
+  },
+  {
+    "name": "Höftcirklar",
+    "category": "warmup",
+    "sports": ["triple_jump"],
+    "reps": "2 × 10 per håll",
+    "description": "Mobiliserar höftleden inför hoppbelastning."
+  },
+  {
+    "name": "Ankelstuds på stället",
+    "category": "warmup",
+    "sports": ["triple_jump"],
+    "reps": "3 × 20 studs",
+    "description": "Förbereder fot och vad för snabba markkontakter."
+  },
+
+  {
+    "name": "Hop-fas teknik utan ansats",
+    "category": "technique",
+    "sports": ["triple_jump"],
+    "reps": "4 × 4 hopp",
+    "description": "Isolerar första fasen i tresteg.",
+    "coaching_cues": [
+      "Stabil höft",
+      "Tryck bakåt–nedåt"
+    ]
+  },
+  {
+    "name": "Step-fas teknik utan ansats",
+    "category": "technique",
+    "sports": ["triple_jump"],
+    "reps": "4 × 4 hopp",
+    "description": "Tränar övergången mellan hop och step."
+  },
+  {
+    "name": "Jump-fas teknik utan ansats",
+    "category": "technique",
+    "sports": ["triple_jump"],
+    "reps": "4 × 4 hopp",
+    "description": "Fokus på avslutande hopp och landning."
+  },
+  {
+    "name": "Tresteg gångtempo",
+    "category": "technique",
+    "sports": ["triple_jump"],
+    "reps": "5 × 20 m",
+    "description": "Teknisk inlärning i lågt tempo.",
+    "coaching_cues": [
+      "Rytm före längd",
+      "Kontrollerad överkropp"
+    ]
+  },
+  {
+    "name": "Tresteg med 6 stegs ansats",
+    "category": "technique",
+    "sports": ["triple_jump"],
+    "reps": "4 × 1",
+    "description": "Sammanlänkar teknik och fart."
+  },
+
+  {
+    "name": "Enbenshopp framåt",
+    "category": "plyometrics",
+    "sports": ["triple_jump"],
+    "reps": "3 × 10 per ben",
+    "description": "Utvecklar horisontell kraft i stödbenet."
+  },
+  {
+    "name": "Bounds (lång bounds)",
+    "category": "plyometrics",
+    "sports": ["triple_jump"],
+    "reps": "4 × 30 m",
+    "description": "Förbättrar rytm och kraftutveckling."
+  },
+  {
+    "name": "Alternating bounds",
+    "category": "plyometrics",
+    "sports": ["triple_jump"],
+    "reps": "4 × 30 m",
+    "description": "Utvecklar koordination mellan benen."
+  },
+  {
+    "name": "Drop jumps låg höjd",
+    "category": "plyometrics",
+    "sports": ["triple_jump"],
+    "reps": "3 × 6",
+    "description": "Tränar reaktiv styrka och kort markkontakt."
+  },
+  {
+    "name": "Häckhopp låg höjd",
+    "category": "plyometrics",
+    "sports": ["triple_jump"],
+    "reps": "3 × 8",
+    "description": "Kontrollerad plyometrisk belastning."
+  },
+
+  {
+    "name": "Knäböj",
+    "category": "strength",
+    "sports": ["triple_jump"],
+    "reps": "4 × 5",
+    "description": "Basstyrka för höft och ben."
+  },
+  {
+    "name": "Utfall bakåt",
+    "category": "strength",
+    "sports": ["triple_jump"],
+    "reps": "3 × 8 per ben",
+    "description": "Enbensstyrka med fokus på höftkontroll."
+  },
+  {
+    "name": "Step-ups",
+    "category": "strength",
+    "sports": ["triple_jump"],
+    "reps": "3 × 6 per ben",
+    "description": "Överför styrka till hopp-specifik rörelse."
+  },
+  {
+    "name": "Nordic hamstrings",
+    "category": "strength",
+    "sports": ["triple_jump"],
+    "reps": "3 × 5",
+    "description": "Skadeförebyggande baklårsstyrka."
+  },
+  {
+    "name": "Vadpress enbens",
+    "category": "strength",
+    "sports": ["triple_jump"],
+    "reps": "3 × 12 per ben",
+    "description": "Stärker fot- och vadstruktur."
+  },
+
+  {
+    "name": "Balans på balansplatta",
+    "category": "coordination",
+    "sports": ["triple_jump"],
+    "duration": "3 × 30 sek",
+    "description": "Förbättrar fot- och knästabilitet."
+  },
+  {
+    "name": "Enbenslandning från låda",
+    "category": "coordination",
+    "sports": ["triple_jump"],
+    "reps": "3 × 6 per ben",
+    "description": "Landningskontroll efter hopp."
+  },
+  {
+    "name": "Rytmhopp på linje",
+    "category": "coordination",
+    "sports": ["triple_jump"],
+    "reps": "4 × 20 sek",
+    "description": "Tränar rytm och fotisättning."
+  },
+  {
+    "name": "Koordinationslöpning (stege)",
+    "category": "coordination",
+    "sports": ["triple_jump"],
+    "reps": "4 × 20 m",
+    "description": "Förbättrar fotfrekvens och kontroll."
+  },
+  {
+    "name": "Hopp–steg–stopp",
+    "category": "coordination",
+    "sports": ["triple_jump"],
+    "reps": "4 × 3 sekvenser",
+    "description": "Kopplar explosivitet till kontroll."
+  },
+  {
+    "id": "TJ_TECH_21",
+    "name": "Hop-fas med markerade nedslag",
+    "category": "technique",
+    "reps": "4 × 4 hopp",
+    "sports": ["triple_jump"]
+  },
+  {
+    "id": "TJ_TECH_22",
+    "name": "Step-fas rytmträning",
+    "category": "technique",
+    "reps": "4 × 20 m",
+    "sports": ["triple_jump"]
+  },
+  {
+    "id": "TJ_TECH_23",
+    "name": "Jump-fas från kort ansats",
+    "category": "technique",
+    "reps": "4 × 3",
+    "sports": ["triple_jump"]
+  },
+  {
+    "id": "TJ_TECH_24",
+    "name": "Hop–step över låga häckar",
+    "category": "technique",
+    "reps": "4 × 3 sekvenser",
+    "sports": ["triple_jump"]
+  },
+  {
+    "id": "TJ_TECH_25",
+    "name": "Tresteg i sand med fokus på balans",
+    "category": "technique",
+    "reps": "5 × 1",
+    "sports": ["triple_jump"]
+  },
+  {
+    "id": "TJ_TECH_26",
+    "name": "Tresteg med rytmklapp",
+    "category": "technique",
+    "reps": "4 × 20 m",
+    "sports": ["triple_jump"]
+  },
+  {
+    "id": "TJ_TECH_27",
+    "name": "Hop-fas över låg box",
+    "category": "technique",
+    "reps": "4 × 3",
+    "sports": ["triple_jump"]
+  },
+  {
+    "id": "TJ_TECH_28",
+    "name": "Step-fas landning kontroll",
+    "category": "technique",
+    "reps": "3 × 5",
+    "sports": ["triple_jump"]
+  },
+  {
+    "id": "TJ_TECH_29",
+    "name": "Jump-fas med armpendling",
+    "category": "technique",
+    "reps": "4 × 3",
+    "sports": ["triple_jump"]
+  },
+  {
+    "id": "TJ_TECH_30",
+    "name": "Tresteg på mjukt underlag",
+    "category": "technique",
+    "reps": "4 × 20 m",
+    "sports": ["triple_jump"]
+  },
+
+  {
+    "id": "TJ_TECH_31",
+    "name": "Hop-fas från stillastående",
+    "category": "technique",
+    "reps": "4 × 4",
+    "sports": ["triple_jump"]
+  },
+  {
+    "id": "TJ_TECH_32",
+    "name": "Step-fas med konmarkering",
+    "category": "technique",
+    "reps": "4 × 3",
+    "sports": ["triple_jump"]
+  },
+  {
+    "id": "TJ_TECH_33",
+    "name": "Jump-fas i sandgrop",
+    "category": "technique",
+    "reps": "4 × 2",
+    "sports": ["triple_jump"]
+  },
+  {
+    "id": "TJ_TECH_34",
+    "name": "Tresteg låg intensitet",
+    "category": "technique",
+    "reps": "5 × 20 m",
+    "sports": ["triple_jump"]
+  },
+  {
+    "id": "TJ_TECH_35",
+    "name": "Tresteg med fokus på höftposition",
+    "category": "technique",
+    "reps": "4 × 3",
+    "sports": ["triple_jump"]
+  },
+
+  {
+    "id": "TJ_TECH_36",
+    "name": "Hop-fas med video-feedback",
+    "category": "technique",
+    "reps": "4 × 3",
+    "sports": ["triple_jump"]
+  },
+  {
+    "id": "TJ_TECH_37",
+    "name": "Step-fas med kort markkontakt",
+    "category": "technique",
+    "reps": "4 × 20 m",
+    "sports": ["triple_jump"]
+  },
+  {
+    "id": "TJ_TECH_38",
+    "name": "Jump-fas maximal höjd",
+    "category": "technique",
+    "reps": "3 × 3",
+    "sports": ["triple_jump"]
+  },
+  {
+    "id": "TJ_TECH_39",
+    "name": "Tresteg progressiv ansats",
+    "category": "technique",
+    "reps": "4 × 1",
+    "sports": ["triple_jump"]
+  },
+  {
+    "id": "TJ_TECH_40",
+    "name": "Tresteg tävlingslikt",
+    "category": "technique",
+    "reps": "3 × 1",
+    "sports": ["triple_jump"]
+  }
+]
+

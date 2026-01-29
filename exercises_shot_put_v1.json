@@ -1,0 +1,20 @@
+[
+  {"id":"SP_WU_01","name":"Allmän uppvärmning","category":"warmup","duration":"8 min","sports":["shot_put"]},
+  {"id":"SP_WU_02","name":"Axelcirklar","category":"warmup","duration":"2 × 15","sports":["shot_put"]},
+  {"id":"SP_WU_03","name":"Bålrotation","category":"warmup","duration":"2 × 10","sports":["shot_put"]},
+
+  {"id":"SP_TECH_01","name":"Stöt från stillastående","category":"technique","duration":"5 × 5","sports":["shot_put"]},
+  {"id":"SP_TECH_02","name":"Stöt med glid","category":"technique","duration":"5 × 4","sports":["shot_put"]},
+  {"id":"SP_TECH_03","name":"Power position drill","category":"technique","duration":"4 × 5","sports":["shot_put"]},
+  {"id":"SP_TECH_04","name":"Utstöt armfokus","category":"technique","duration":"4 × 6","sports":["shot_put"]},
+
+  {"id":"SP_STR_01","name":"Bänkpress","category":"strength","duration":"4 × 5","sports":["shot_put"]},
+  {"id":"SP_STR_02","name":"Militärpress","category":"strength","duration":"4 × 6","sports":["shot_put"]},
+  {"id":"SP_STR_03","name":"Knäböj","category":"strength","duration":"4 × 5","sports":["shot_put"]},
+  {"id":"SP_STR_04","name":"Marklyft","category":"strength","duration":"4 × 4","sports":["shot_put"]},
+
+  {"id":"SP_PLYO_01","name":"Medicinkast framåt","category":"plyometrics","duration":"4 × 6","sports":["shot_put"]},
+  {"id":"SP_PLYO_02","name":"Medicinkast bakåt","category":"plyometrics","duration":"4 × 6","sports":["shot_put"]},
+
+  {"id":"SP_COORD_01","name":"Rotationsbalans","category":"coordination","duration":"3 × 30 sek","sports":["shot_put"]}
+]

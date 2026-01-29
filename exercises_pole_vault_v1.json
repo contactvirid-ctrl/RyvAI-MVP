@@ -1,0 +1,15 @@
+[
+  {"id":"PV_WU_01","name":"Lugn jogging","category":"warmup","duration":"10 min","sports":["pole_vault"]},
+  {"id":"PV_WU_02","name":"Axelrörlighet","category":"warmup","duration":"2 × 15","sports":["pole_vault"]},
+
+  {"id":"PV_TECH_01","name":"Ansats med stav","category":"technique","duration":"6 × 30 m","sports":["pole_vault"]},
+  {"id":"PV_TECH_02","name":"Isättning drill","category":"technique","duration":"5 × 4","sports":["pole_vault"]},
+  {"id":"PV_TECH_03","name":"Take-off utan hopp","category":"technique","duration":"5 × 5","sports":["pole_vault"]},
+  {"id":"PV_TECH_04","name":"Sving med gummiband","category":"technique","duration":"4 × 6","sports":["pole_vault"]},
+
+  {"id":"PV_PLYO_01","name":"Enbenshopp","category":"plyometrics","duration":"3 × 10","sports":["pole_vault"]},
+  {"id":"PV_PLYO_02","name":"Box jumps","category":"plyometrics","duration":"4 × 6","sports":["pole_vault"]},
+
+  {"id":"PV_STR_01","name":"Pull-ups","category":"strength","duration":"4 × 6","sports":["pole_vault"]},
+  {"id":"PV_STR_02","name":"Core hängande","category":"strength","duration":"3 × 10","sports":["pole_vault"]}
+]

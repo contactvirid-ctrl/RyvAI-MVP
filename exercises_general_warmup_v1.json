@@ -1,0 +1,23 @@
+[
+  { "name": "Lätt jogging", "category": "warmup", "reps": "5 min", "description": "Lugn löpning för att höja puls och kroppstemperatur." },
+  { "name": "Skipping A", "category": "warmup", "reps": "3 × 30 m", "description": "Höga knän med aktiv armpendling." },
+  { "name": "Skipping B", "category": "warmup", "reps": "3 × 30 m", "description": "Högt knä + aktivt isättande av fot." },
+  { "name": "Höga knän gång", "category": "warmup", "reps": "2 × 20 m", "description": "Kontrollerad rörelse med högt knälyft." },
+  { "name": "Hälkickar", "category": "warmup", "reps": "2 × 30 m", "description": "Aktiverar baksida lår." },
+  { "name": "Gångutfall", "category": "warmup", "reps": "2 × 10 per ben", "description": "Rörlighet höft och lår." },
+  { "name": "Benpendling fram/bak", "category": "warmup", "reps": "2 × 10 per ben", "description": "Ökar rörlighet i höft." },
+  { "name": "Benpendling sida", "category": "warmup", "reps": "2 × 10 per ben", "description": "Aktiverar höftens stabilitet." },
+  { "name": "Armrotationer", "category": "warmup", "reps": "2 × 15", "description": "Cirklar framåt och bakåt." },
+  { "name": "Fotledscirklar", "category": "warmup", "reps": "2 × 15 per fot", "description": "Förbereder fotleder." },
+
+  { "name": "Rörlighet höftböjare", "category": "warmup", "reps": "2 × 30 sek", "description": "Utfall med press framåt." },
+  { "name": "Djup knäböj", "category": "warmup", "reps": "2 × 10", "description": "Full rörelse." },
+  { "name": "Lateral shuffle", "category": "warmup", "reps": "3 × 20 m", "description": "Sidoförflyttning låg position." },
+  { "name": "Baklängesjogg", "category": "warmup", "reps": "2 × 30 m", "description": "Koordination och aktivering." },
+  { "name": "Hopprep", "category": "warmup", "reps": "3 × 30 sek", "description": "Snabb fotkontakt." },
+  { "name": "Ankeldrill", "category": "warmup", "reps": "3 × 20", "description": "Små studs på stället." },
+  { "name": "Hopp på stället", "category": "warmup", "reps": "3 × 10", "description": "Mjuka landningar." },
+  { "name": "Tågång", "category": "warmup", "reps": "2 × 20 m", "description": "Aktiverar vader." },
+  { "name": "Hälgång", "category": "warmup", "reps": "2 × 20 m", "description": "Aktiverar framsida underben." },
+  { "name": "Krypgång", "category": "warmup", "reps": "2 × 20 m", "description": "Helkroppsaktivering." }
+]

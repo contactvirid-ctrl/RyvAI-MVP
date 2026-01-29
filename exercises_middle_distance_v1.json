@@ -1,0 +1,61 @@
+[
+  {"id":"MD_WU_01","name":"Lugn jogging","category":"warmup","reps":"10 min","sports":["middle_distance"]},
+  {"id":"MD_WU_02","name":"Höga knän gång","category":"warmup","reps":"2 × 30 m","sports":["middle_distance"]},
+  {"id":"MD_WU_03","name":"Hälspark gång","category":"warmup","reps":"2 × 30 m","sports":["middle_distance"]},
+  {"id":"MD_WU_04","name":"Skipping A","category":"warmup","reps":"3 × 30 m","sports":["middle_distance"]},
+  {"id":"MD_WU_05","name":"Skipping B","category":"warmup","reps":"3 × 30 m","sports":["middle_distance"]},
+  {"id":"MD_WU_06","name":"Sidosteg + rörlighet","category":"warmup","reps":"2 × 20 m","sports":["middle_distance"]},
+  {"id":"MD_WU_07","name":"Dynamisk höftstretch","category":"warmup","reps":"2 × 10","sports":["middle_distance"]},
+  {"id":"MD_WU_08","name":"Fotledsmobilitet","category":"warmup","reps":"2 × 15","sports":["middle_distance"]},
+  {"id":"MD_WU_09","name":"Baklängesjogg","category":"warmup","reps":"2 × 40 m","sports":["middle_distance"]},
+  {"id":"MD_WU_10","name":"Koordinationslöpning","category":"warmup","reps":"3 × 20 m","sports":["middle_distance"]},
+
+  {"id":"MD_TECH_01","name":"Löpskolning A-löp","category":"technique","reps":"4 × 30 m","sports":["middle_distance"]},
+  {"id":"MD_TECH_02","name":"Löpskolning B-löp","category":"technique","reps":"4 × 30 m","sports":["middle_distance"]},
+  {"id":"MD_TECH_03","name":"Löpskolning C-löp","category":"technique","reps":"4 × 30 m","sports":["middle_distance"]},
+  {"id":"MD_TECH_04","name":"Armpendling isolerad","category":"technique","reps":"3 × 30 sek","sports":["middle_distance"]},
+  {"id":"MD_TECH_05","name":"Stegfrekvens drill","category":"technique","reps":"4 × 20 sek","sports":["middle_distance"]},
+  {"id":"MD_TECH_06","name":"Hög höftposition drill","category":"technique","reps":"4 × 30 m","sports":["middle_distance"]},
+  {"id":"MD_TECH_07","name":"Löpning med fokus avslappning","category":"technique","reps":"4 × 60 m","sports":["middle_distance"]},
+  {"id":"MD_TECH_08","name":"Kurvlöpning teknik","category":"technique","reps":"4 × 80 m","sports":["middle_distance"]},
+  {"id":"MD_TECH_09","name":"Löpning med metronom","category":"technique","reps":"3 × 1 min","sports":["middle_distance"]},
+  {"id":"MD_TECH_10","name":"Steglängd kontroll","category":"technique","reps":"4 × 60 m","sports":["middle_distance"]},
+
+  {"id":"MD_AERO_01","name":"Kontinuerlig distans","category":"endurance","reps":"25 min","sports":["middle_distance"]},
+  {"id":"MD_AERO_02","name":"Progressiv distans","category":"endurance","reps":"20 min","sports":["middle_distance"]},
+  {"id":"MD_AERO_03","name":"Lugn terränglöpning","category":"endurance","reps":"30 min","sports":["middle_distance"]},
+  {"id":"MD_AERO_04","name":"Fartlek lätt","category":"endurance","reps":"25 min","sports":["middle_distance"]},
+  {"id":"MD_AERO_05","name":"Distans med spurter","category":"endurance","reps":"20 min","sports":["middle_distance"]},
+
+  {"id":"MD_THR_01","name":"Tröskelintervaller 5×5 min","category":"endurance","reps":"5 × 5 min","sports":["middle_distance"]},
+  {"id":"MD_THR_02","name":"Tröskel 4×8 min","category":"endurance","reps":"4 × 8 min","sports":["middle_distance"]},
+  {"id":"MD_THR_03","name":"Kontrollerad tempo 15 min","category":"endurance","reps":"15 min","sports":["middle_distance"]},
+  {"id":"MD_THR_04","name":"Backtröskel","category":"endurance","reps":"6 × 2 min","sports":["middle_distance"]},
+
+  {"id":"MD_INT_01","name":"Intervaller 10×400 m","category":"speed_endurance","reps":"10 × 400 m","sports":["middle_distance"]},
+  {"id":"MD_INT_02","name":"Intervaller 6×600 m","category":"speed_endurance","reps":"6 × 600 m","sports":["middle_distance"]},
+  {"id":"MD_INT_03","name":"Intervaller 5×800 m","category":"speed_endurance","reps":"5 × 800 m","sports":["middle_distance"]},
+  {"id":"MD_INT_04","name":"Intervaller 12×200 m","category":"speed_endurance","reps":"12 × 200 m","sports":["middle_distance"]},
+  {"id":"MD_INT_05","name":"Intervaller 3×1000 m","category":"speed_endurance","reps":"3 × 1000 m","sports":["middle_distance"]},
+
+  {"id":"MD_SPEED_01","name":"Sprint 60 m","category":"speed","reps":"6 × 60 m","sports":["middle_distance"]},
+  {"id":"MD_SPEED_02","name":"Stegringslopp","category":"speed","reps":"6 × 100 m","sports":["middle_distance"]},
+  {"id":"MD_SPEED_03","name":"Flying 30 m","category":"speed","reps":"4 × 30 m","sports":["middle_distance"]},
+  {"id":"MD_SPEED_04","name":"Sprint i kurva","category":"speed","reps":"4 × 80 m","sports":["middle_distance"]},
+
+  {"id":"MD_PLYO_01","name":"Ankelskutt","category":"plyometrics","reps":"3 × 20","sports":["middle_distance"]},
+  {"id":"MD_PLYO_02","name":"Enbenshopp framåt","category":"plyometrics","reps":"3 × 10 per ben","sports":["middle_distance"]},
+  {"id":"MD_PLYO_03","name":"Box jumps","category":"plyometrics","reps":"4 × 6","sports":["middle_distance"]},
+  {"id":"MD_PLYO_04","name":"Bounding","category":"plyometrics","reps":"4 × 30 m","sports":["middle_distance"]},
+
+  {"id":"MD_STR_01","name":"Knäböj","category":"strength","reps":"4 × 5","sports":["middle_distance"]},
+  {"id":"MD_STR_02","name":"Utfallssteg","category":"strength","reps":"3 × 8 per ben","sports":["middle_distance"]},
+  {"id":"MD_STR_03","name":"Nordic hamstrings","category":"strength","reps":"3 × 5","sports":["middle_distance"]},
+  {"id":"MD_STR_04","name":"Vadpress","category":"strength","reps":"3 × 12","sports":["middle_distance"]},
+  {"id":"MD_STR_05","name":"Step-ups","category":"strength","reps":"3 × 8 per ben","sports":["middle_distance"]},
+
+  {"id":"MD_CORE_01","name":"Planka","category":"coordination","reps":"3 × 45 sek","sports":["middle_distance"]},
+  {"id":"MD_CORE_02","name":"Sidoplanka","category":"coordination","reps":"3 × 30 sek per sida","sports":["middle_distance"]},
+  {"id":"MD_CORE_03","name":"Dead bug","category":"coordination","reps":"3 × 10","sports":["middle_distance"]},
+  {"id":"MD_CORE_04","name":"Balans enbens","category":"coordination","reps":"3 × 30 sek per ben","sports":["middle_distance"]}
+]

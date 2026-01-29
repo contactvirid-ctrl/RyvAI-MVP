@@ -1,0 +1,15 @@
+[
+  {"id":"JV_WU_01","name":"Allmän uppvärmning","category":"warmup","duration":"10 min","sports":["javelin"]},
+  {"id":"JV_WU_02","name":"Axelrörlighet","category":"warmup","duration":"2 × 15","sports":["javelin"]},
+
+  {"id":"JV_TECH_01","name":"Kast utan ansats","category":"technique","duration":"6 × 5","sports":["javelin"]},
+  {"id":"JV_TECH_02","name":"Ansats med stopp","category":"technique","duration":"5 × 4","sports":["javelin"]},
+  {"id":"JV_TECH_03","name":"Blockering drill","category":"technique","duration":"4 × 6","sports":["javelin"]},
+  {"id":"JV_TECH_04","name":"Kast med gummiband","category":"technique","duration":"4 × 8","sports":["javelin"]},
+
+  {"id":"JV_PLYO_01","name":"Medicinkast över huvudet","category":"plyometrics","duration":"4 × 6","sports":["javelin"]},
+  {"id":"JV_PLYO_02","name":"Sidokast med boll","category":"plyometrics","duration":"4 × 6","sports":["javelin"]},
+
+  {"id":"JV_STR_01","name":"Militärpress","category":"strength","duration":"4 × 6","sports":["javelin"]},
+  {"id":"JV_STR_02","name":"Rotationsövningar bål","category":"strength","duration":"3 × 10","sports":["javelin"]}
+]

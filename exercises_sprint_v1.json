@@ -1,0 +1,343 @@
+[
+  {
+    "id": "SP_WU_01",
+    "name": "Jogging lätt",
+    "category": "warmup",
+    "duration": "5 min",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_WU_02",
+    "name": "Höga knän gång",
+    "category": "warmup",
+    "reps": "2 × 20 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_WU_03",
+    "name": "Höga knän löpning",
+    "category": "warmup",
+    "reps": "3 × 20 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_WU_04",
+    "name": "Skipping A",
+    "category": "warmup",
+    "reps": "3 × 30 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_WU_05",
+    "name": "Skipping B",
+    "category": "warmup",
+    "reps": "3 × 30 m",
+    "sports": ["sprint"]
+  },
+
+  {
+    "id": "SP_TECH_01",
+    "name": "Sprintarmar stående",
+    "category": "technique",
+    "reps": "3 × 20 sek",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_TECH_02",
+    "name": "A-march",
+    "category": "technique",
+    "reps": "3 × 20 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_TECH_03",
+    "name": "A-skip",
+    "category": "technique",
+    "reps": "3 × 20 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_TECH_04",
+    "name": "B-skip",
+    "category": "technique",
+    "reps": "3 × 20 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_TECH_05",
+    "name": "Dribble löpning",
+    "category": "technique",
+    "reps": "3 × 30 m",
+    "sports": ["sprint"]
+  },
+
+  {
+    "id": "SP_ACC_01",
+    "name": "Falling starts",
+    "category": "acceleration",
+    "reps": "4 × 10 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_ACC_02",
+    "name": "Tre-punktsstart",
+    "category": "acceleration",
+    "reps": "4 × 15 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_ACC_03",
+    "name": "Blockstart (teknik)",
+    "category": "acceleration",
+    "reps": "4 × 10 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_ACC_04",
+    "name": "Låg acceleration",
+    "category": "acceleration",
+    "reps": "5 × 20 m",
+    "sports": ["sprint"]
+  },
+
+  {
+    "id": "SP_MAXV_01",
+    "name": "Flygande 20 m",
+    "category": "max_velocity",
+    "reps": "4 × 20 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_MAXV_02",
+    "name": "Flygande 30 m",
+    "category": "max_velocity",
+    "reps": "4 × 30 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_MAXV_03",
+    "name": "Sprint med höga knän",
+    "category": "max_velocity",
+    "reps": "3 × 30 m",
+    "sports": ["sprint"]
+  },
+
+  {
+    "id": "SP_PLYO_01",
+    "name": "Ankelstuds",
+    "category": "plyometrics",
+    "reps": "3 × 20",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_PLYO_02",
+    "name": "Häckhopp låg",
+    "category": "plyometrics",
+    "reps": "3 × 6",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_PLYO_03",
+    "name": "Bounds",
+    "category": "plyometrics",
+    "reps": "3 × 30 m",
+    "sports": ["sprint"]
+  },
+
+  {
+    "id": "SP_STR_01",
+    "name": "Knäböj",
+    "category": "strength",
+    "reps": "4 × 5",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_STR_02",
+    "name": "Marklyft",
+    "category": "strength",
+    "reps": "4 × 4",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_STR_03",
+    "name": "Step-ups",
+    "category": "strength",
+    "reps": "3 × 6 per ben",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_STR_04",
+    "name": "Nordic hamstrings",
+    "category": "strength",
+    "reps": "3 × 5",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_COORD_01",
+    "name": "Koordinationsstege",
+    "category": "coordination",
+    "reps": "4 × 20 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_COORD_02",
+    "name": "Snabba fotisättningar",
+    "category": "coordination",
+    "reps": "3 × 15 sek",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_ACC_05",
+    "name": "Acceleration från sittande",
+    "category": "acceleration",
+    "reps": "4 × 15 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_ACC_06",
+    "name": "Acceleration med motstånd (släde/band)",
+    "category": "acceleration",
+    "reps": "5 × 20 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_ACC_07",
+    "name": "Backlöpning kort",
+    "category": "acceleration",
+    "reps": "5 × 20 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_ACC_08",
+    "name": "Explosiva steg ur block",
+    "category": "acceleration",
+    "reps": "4 × 10 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_MAXV_04",
+    "name": "Flygande 40 m",
+    "category": "max_velocity",
+    "reps": "3 × 40 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_MAXV_05",
+    "name": "Sprint med frekvensfokus",
+    "category": "max_velocity",
+    "reps": "4 × 30 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_MAXV_06",
+    "name": "Sprint med avslappning",
+    "category": "max_velocity",
+    "reps": "4 × 40 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_SE_01",
+    "name": "Sprint 60 m",
+    "category": "speed_endurance",
+    "reps": "4 × 60 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_SE_02",
+    "name": "Sprint 80 m",
+    "category": "speed_endurance",
+    "reps": "3 × 80 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_SE_03",
+    "name": "Sprint 120 m",
+    "category": "speed_endurance",
+    "reps": "3 × 120 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_TECH_06",
+    "name": "Sprintarmar i lutning",
+    "category": "technique",
+    "reps": "3 × 20 sek",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_TECH_07",
+    "name": "Fotisättning under höft",
+    "category": "technique",
+    "reps": "3 × 30 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_TECH_08",
+    "name": "Steglängd progression",
+    "category": "technique",
+    "reps": "4 × 40 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_PLYO_04",
+    "name": "Djuphopp",
+    "category": "plyometrics",
+    "reps": "3 × 5",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_PLYO_05",
+    "name": "Enbenshopp vertikalt",
+    "category": "plyometrics",
+    "reps": "3 × 6 per ben",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_PLYO_06",
+    "name": "Bounding i uppförsbacke",
+    "category": "plyometrics",
+    "reps": "3 × 25 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_STR_05",
+    "name": "Hip thrust",
+    "category": "strength",
+    "reps": "4 × 6",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_STR_06",
+    "name": "Raka marklyft",
+    "category": "strength",
+    "reps": "3 × 6",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_STR_07",
+    "name": "Utfallssteg framåt",
+    "category": "strength",
+    "reps": "3 × 8 per ben",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_COORD_03",
+    "name": "Reaktionsstart på signal",
+    "category": "coordination",
+    "reps": "6 × 10 m",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_COORD_04",
+    "name": "Snabb fotkontakt på plats",
+    "category": "coordination",
+    "reps": "3 × 20 sek",
+    "sports": ["sprint"]
+  },
+  {
+    "id": "SP_COORD_05",
+    "name": "Kurvsprint",
+    "category": "coordination",
+    "reps": "4 × 60 m",
+    "sports": ["sprint"]
+  }
+]
