@@ -1,61 +1,55 @@
 import json
 import random
 from pathlib import Path
-import generic_templates_v2 as generic_templates  # vår templates-fil
+import generic_templates_v2 as generic_templates
 
-exercise_dir = Path("./")  # mappen med exercises
+exercise_dir = Path("./")
 
 # ----------------------------
 # Hjälpfunktioner
 # ----------------------------
 def load_json(file):
-    """Ladda JSON-fil från exercises-mappen"""
     with open(exercise_dir / file, encoding="utf-8") as f:
         return json.load(f)
 
 def get_value(ex):
-    """Hämta repetitions / duration / prescription"""
     return ex.get("prescription") or ex.get("reps") or ex.get("duration") or ""
 
 def pick(exercises, category, amount):
-    """Plocka 'amount' exercises från 'category', slumpmässigt"""
     pool = [e for e in exercises if e["category"] == category]
     if len(pool) < amount:
         return pool
     return random.sample(pool, amount)
 
 # ----------------------------
-# Generator med snygg terminal-output
+# Returnerar pass som dict
 # ----------------------------
-def generate_workout_pretty(sport, level, focus, duration):
-    """
-    sport: str, t.ex. "triple_jump"
-    level: "children", "beginner", "intermediate"
-    focus: "Technique", "Strength", "Speed", "Mixed"
-    duration: int, t.ex. 30, 45, 60
-    """
-
-    # Ladda exercises
+def generate_workout(sport, level, focus, duration):
     sport_file = f"exercises_{sport}_v1.json"
     try:
         exercises = load_json(sport_file)
     except FileNotFoundError:
         print(f"Fel: Filen {sport_file} finns inte!")
-        return "Inga övningar hittades."
+        return {}
 
     warmup_fallback = load_json("exercises_general_warmup_v1.json")
     strength_fallback = load_json("exercises_general_strength_v1.json")
     play = load_json("exercises_play_v1.json") if level=="children" else []
 
-    # Hämta template
+    # Templates och fallback
     templates = generic_templates.templates
-    if focus not in templates[level]:
-        focus = "Mixed"
-    template = templates[level][focus][0]
+    level_templates = templates[level]
+    focus_key = focus.lower()
+    if focus_key in level_templates:
+        template_list = level_templates[focus_key]
+    else:
+        # fallback: ta första key om fokus saknas
+        first_key = next(iter(level_templates))
+        template_list = level_templates[first_key]
 
-    output = []
-    output.append(f"\n=== PASS: {sport.replace('_',' ').title()} – {level.capitalize()} – {focus} – {duration} min ===\n")
+    template = template_list[0]  # detta används för resten
 
+    plan = {}
     for section in template["sections"]:
         block_name = section["name"]
         count = section["exerciseCount"]
@@ -64,16 +58,12 @@ def generate_workout_pretty(sport, level, focus, duration):
         if count == 0:
             continue
 
-        output.append(f"--- {block_name} ({count} övningar) ---")
-
         collected = []
-
         for cat in cats:
             picked = pick(exercises, cat, count)
             collected.extend(picked)
             count -= len(picked)
 
-        # Fallback om inte tillräckligt
         if count > 0:
             if "strength" in [c.lower() for c in cats]:
                 fallback = random.sample(strength_fallback, count)
@@ -81,11 +71,10 @@ def generate_workout_pretty(sport, level, focus, duration):
                 fallback = random.sample(warmup_fallback, count)
             collected.extend(fallback)
 
-        # Play-block för children
         if block_name.lower() == "play / coordination" and level=="children":
             collected = random.sample(play, section["exerciseCount"])
 
-        # Skriv ut övningar snyggt
+        plan[block_name] = []
         for i, ex in enumerate(collected, start=1):
             val = get_value(ex)
             line = f"{i}. {ex['name']}"
@@ -93,24 +82,38 @@ def generate_workout_pretty(sport, level, focus, duration):
                 line += f" ({val})"
             if "description" in ex:
                 line += f" → {ex['description']}"
-            output.append(line)
+            plan[block_name].append(line)
 
-        output.append("")  # tom rad mellan block
-
-    output.append("=== PASS KLART! ===\n")
-    return "\n".join(output)
+    return plan
 
 # ----------------------------
-# Test i terminal med svenska frågor
+# Returnerar HTML-version för Flask
+# ----------------------------
+def generate_workout_pretty_html(sport, level, focus, duration):
+    plan = generate_workout(sport, level, focus, duration)
+    if not plan:
+        return "<p>Inga övningar hittades.</p>"
+
+    html = f"<pre style='font-family: monospace; font-size: 16px;'>"
+    html += f"=== PASS: {sport.replace('_',' ').title()} – {level.capitalize()} – {focus} – {duration} min ===\n\n"
+    for section, exercises in plan.items():
+        html += f"--- {section} ({len(exercises)} övningar) ---\n"
+        for ex in exercises:
+            html += f"{ex}\n"
+        html += "\n"
+    html += "=== PASS KLART! ===</pre>"
+    return html
+
+# ----------------------------
+# Terminaltest med frågor
 # ----------------------------
 if __name__ == "__main__":
-
     print("=== UNIVERSAL WORKOUT GENERATOR ===\n")
 
     # Sporter
     sports = {
-        "1": ("Tre steg / Long Jump", "long_jump"),
-        "2": ("Tresteg / Triple Jump", "triple_jump"),
+        "1": ("Längdhopp", "long_jump"),
+        "2": ("Tresteg", "triple_jump"),
         "3": ("Sprint", "sprint"),
         "4": ("Höjdhopp", "high_jump"),
         "5": ("Mellandistans", "middle_distance"),
@@ -123,23 +126,18 @@ if __name__ == "__main__":
     for k, v in sports.items():
         print(f"{k}: {v[0]}")
     sport_choice = input("Skriv siffran för din gren: ").strip()
-    sport_name = sports[sport_choice][1]
+    sport = sports[sport_choice][1]
 
     # Nivå
     print("\nVälj nivå:")
-    print("1: Barn")
-    print("2: Nybörjare")
-    print("3: Medel")
+    print("1: Barn\n2: Nybörjare\n3: Medel")
     level_map = {"1":"children","2":"beginner","3":"intermediate"}
     level_choice = input("Skriv siffran för nivå: ").strip()
     level = level_map[level_choice]
 
     # Fokus
     print("\nVad vill du fokusera på?")
-    print("1: Teknik")
-    print("2: Styrka")
-    print("3: Snabbhet")
-    print("4: Blandat")
+    print("1: Teknik\n2: Styrka\n3: Snabbhet\n4: Blandat")
     focus_map = {"1":"Technique","2":"Strength","3":"Speed","4":"Mixed"}
     focus_choice = input("Skriv siffran för fokus: ").strip()
     focus = focus_map[focus_choice]
@@ -147,5 +145,4 @@ if __name__ == "__main__":
     # Passlängd
     duration = int(input("\nHur lång ska passet vara (30/45/60): ").strip())
 
-    output = generate_workout_pretty(sport_name, level, focus, duration)
-    print(output)
+    print("\n" + generate_workout_pretty_html(sport, level, focus, duration))
