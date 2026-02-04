@@ -77,65 +77,13 @@ hr { margin:40px 0; }
 {{ workout_html|safe }}
 <hr>
 <h2>Hjälp oss förbättra RYVAI</h2>
-<form method="post" action="/feedback">
-<label>Ditt namn (valfritt)</label>
-<input type="text" name="name">
-<label>Roll</label>
-<select name="role">
-<option value="coach">Tränare</option>
-<option value="athlete">Aktiv</option>
-<option value="parent">Förälder</option>
-<option value="other">Annat</option>
-</select>
-<label>Vad var bra?</label>
-<textarea name="good" rows="4" required></textarea>
-<label>Vad saknades eller var dåligt?</label>
-<textarea name="bad" rows="4" required></textarea>
-<label>Skulle du kunna tänka dig att betala för detta i framtiden?</label>
-<select name="pay">
-<option value="yes">Ja</option>
-<option value="maybe">Kanske</option>
-<option value="no">Nej</option>
-</select>
-<label>Vad skulle göra appen värd att betala för?</label>
-<textarea name="value" rows="4"></textarea>
-<label>Övriga tankar / idéer</label>
-<textarea name="extra" rows="4"></textarea>
-<br>
-<button type="submit">Skicka feedback</button>
-</form>
+<a href="https://forms.gle/146zzKgLThSkKpNT8" target="_blank">
+  <button>Ge feedback</button>
+</a>
 </div>
 </body>
 </html>
 """, workout_html=workout_html)
-
-# =========================
-# FEEDBACK ROUTE
-# =========================
-
-@app.route("/feedback", methods=["POST"])
-def feedback():
-    name = request.form.get("name", "Anonym")
-    role = request.form.get("role")
-    good = request.form.get("good")
-    bad = request.form.get("bad")
-    pay = request.form.get("pay")
-    value = request.form.get("value")
-    extra = request.form.get("extra")
-
-    with open("feedback.txt", "a", encoding="utf-8") as f:
-        f.write("\n------------------------\n")
-        f.write(f"Tid: {datetime.now()}\n")
-        f.write(f"Namn: {name}\n")
-        f.write(f"Roll: {role}\n")
-        f.write(f"Bra: {good}\n")
-        f.write(f"Dåligt: {bad}\n")
-        f.write(f"Betala?: {pay}\n")
-        f.write(f"Värde: {value}\n")
-        f.write(f"Extra: {extra}\n")
-
-    return redirect("/")
-
 # =========================
 # START
 # =========================
